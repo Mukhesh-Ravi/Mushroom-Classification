@@ -1,0 +1,78 @@
+{
+  "n_rows": 5644,
+  "n_features": 21,
+  "dropped": [
+    "veil-type"
+  ],
+  "test_size": 0.2,
+  "seed": 42,
+  "confusion": {
+    "Decision Tree (J48)": {
+      "TN": 698,
+      "FP": 0,
+      "FN": 0,
+      "TP": 431
+    },
+    "Random Forest": {
+      "TN": 698,
+      "FP": 0,
+      "FN": 0,
+      "TP": 431
+    },
+    "Naive Bayes": {
+      "TN": 695,
+      "FP": 3,
+      "FN": 63,
+      "TP": 368
+    },
+    "SVM (SMO)": {
+      "TN": 698,
+      "FP": 0,
+      "FN": 0,
+      "TP": 431
+    },
+    "K-Nearest Neighbors (IBk)": {
+      "TN": 698,
+      "FP": 0,
+      "FN": 0,
+      "TP": 431
+    },
+    "Logistic Regression": {
+      "TN": 698,
+      "FP": 0,
+      "FN": 0,
+      "TP": 431
+    }
+  },
+  "columns": [
+    "cap-shape",
+    "cap-surface",
+    "cap-color",
+    "bruises",
+    "odor",
+    "gill-attachment",
+    "gill-spacing",
+    "gill-size",
+    "gill-color",
+    "stalk-shape",
+    "stalk-root",
+    "stalk-surface-above-ring",
+    "stalk-surface-below-ring",
+    "stalk-color-above-ring",
+    "stalk-color-below-ring",
+    "veil-color",
+    "ring-number",
+    "ring-type",
+    "spore-print-color",
+    "population",
+    "habitat"
+  ],
+  "model_files": {
+    "Decision Tree (J48)": "decision_tree.joblib",
+    "Random Forest": "random_forest.joblib",
+    "Naive Bayes": "naive_bayes.joblib",
+    "SVM (SMO)": "svm.joblib",
+    "K-Nearest Neighbors (IBk)": "k_nearest_neighbors.joblib",
+    "Logistic Regression": "logistic_regression.joblib"
+  }
+}
