@@ -35,7 +35,8 @@ source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
 python -m src.train                # train models (≈10 s) – regenerates models/
-streamlit run app.py               # opens http://localhost:8501
+
+.\.venv\Scripts\python.exe -m streamlit run app.py               # opens http://localhost:8501
 ```
 
 ## Method
